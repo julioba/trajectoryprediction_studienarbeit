@@ -26,16 +26,16 @@ class DataLoader():
 
         # base test files
         base_test_dataset = [
-                             'data/test/simulation/simulation_test.txt',
+                             #'data/test/simulation/simulation_test.txt',
                              '/data/test/stpet_residence/residence_simulation.txt',
-                             '/data/test/tudresden/residence_real1.txt',
+                             #'/data/test/tudresden/residence_real1.txt',
 
                              ]
         # base train files
         base_train_dataset = [
-                              '/data/train/simulation/simulationtraining1.txt',
+                              #'/data/train/simulation/simulationtraining1.txt',
                               '/data/train/stpet_residence/residence_training_1.txt',
-                              'data/train/tudresden/residence_real.txt',
+                              #'data/train/tudresden/residence_real.txt',
                             ]
         # dimensions of each file set
         self.dataset_dimensions = {'stpet_residence':[720,576],'simulation': [720, 576],'tudresden': [720, 576]}
