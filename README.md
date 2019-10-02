@@ -9,6 +9,8 @@ and Social LSTM (S-LSTM).
 ------------------------------FIRST STEP-----------------------------
 
 	Execute the command in make_directories.sh to create the due folders.
+	If during the execution of the training, validation or test some files
+	appear to be missing, they can be created manually without filling them.
 
 --------------------------------SOURCE-------------------------------
 
