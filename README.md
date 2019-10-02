@@ -6,6 +6,10 @@ and Social LSTM (S-LSTM).
 
 ---------------------------------------------------------------------
 
+------------------------------FIRST STEP-----------------------------
+
+	Execute the file make_directories.sh to create the due folders.
+
 --------------------------------SOURCE-------------------------------
 
 	This code is inspired in the code of A. Vemula
