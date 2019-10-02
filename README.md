@@ -36,40 +36,40 @@ This program contains 3 datasets:
 -----------------------------------------------------------------------
 
 ------------------------------FUNCTIONING------------------------------
-To train the NN:
-	1. Open VLSTMtrain (VLSTM), OLSTMtrain (OLSTM) or train (S-LSTM)
-	2. If wanted, change the arguments or execute it directly.
-	3. Execute the file
+	To train the NN:
+		1. Open VLSTMtrain (VLSTM), OLSTMtrain (OLSTM) or train (S-LSTM)
+		2. If wanted, change the arguments or execute it directly.
+		3. Execute the file
 
-To validate the model:
-	1. Open "validation"
-	2. Set the default technique (argument "--method") to 1 (SLSTM),
-	   2 (OLSTM) or 3 (VLSTM), or introduce it manually
-	3. Execute the file
+	To validate the model:
+		1. Open "validation"
+		2. Set the default technique (argument "--method") to 1 (SLSTM),
+		   2 (OLSTM) or 3 (VLSTM), or introduce it manually
+		3. Execute the file
 
-To test the model:
-	1. Open "test"
-	2. Set the default technique (argument "--method") to 1 (SLSTM),
-	   2 (OLSTM) or 3 (VLSTM), or introduce it manually
-	3. Execute the file
+	To test the model:
+		1. Open "test"
+		2. Set the default technique (argument "--method") to 1 (SLSTM),
+		   2 (OLSTM) or 3 (VLSTM), or introduce it manually
+		3. Execute the file
 
-By default, the program trains and tests all the datasets. Usually, not all
-of them are wanted. Any of them can be excluded:
+	By default, the program trains and tests all the datasets. Usually, not all
+	of them are wanted. Any of them can be excluded:
 
-    - FOR NOT TRAINING with SIMULATION:      Comment line 28 of file utils.py
-    - FOR NOT TRAINING with STPET_RESIDENCE: Comment line 29 of file utils.py
-    - FOR NOT TRAINING with TUDRESDEN:       Comment line 30 of file utils.py
+	    - FOR NOT TRAINING with SIMULATION:      Comment line 28 of file utils.py
+	    - FOR NOT TRAINING with STPET_RESIDENCE: Comment line 29 of file utils.py
+	    - FOR NOT TRAINING with TUDRESDEN:       Comment line 30 of file utils.py
 
-    - FOR NOT TESTING SIMULATION:            Comment line 35 of file utils.py
-    - FOR NOT TESTING STPET_RESIDENCE:       Comment line 36 of file utils.py
-    - FOR NOT TESTING TUDRESDEN:             Comment line 37 of file utils.py
+	    - FOR NOT TESTING SIMULATION:            Comment line 35 of file utils.py
+	    - FOR NOT TESTING STPET_RESIDENCE:       Comment line 36 of file utils.py
+	    - FOR NOT TESTING TUDRESDEN:             Comment line 37 of file utils.py
 
 ------------------------------------------------------------------
 
 ------------------GENERATION OF THE TRAJECTORIES------------------
-To generate new content in the datasets
-    - For SIMULATION: Execute "simulationgeneration.py"
-    - For STPET_RESIDENCE: Execute "residencesimulationgenerator.py"
-    - For TUDRESDEN: Execute "generationrealtest.py"
+	To generate new content in the datasets
+	    - For SIMULATION: Execute "simulationgeneration.py"
+	    - For STPET_RESIDENCE: Execute "residencesimulationgenerator.py"
+	    - For TUDRESDEN: Execute "generationrealtest.py"
 
 -------------------------------------------------------------------
