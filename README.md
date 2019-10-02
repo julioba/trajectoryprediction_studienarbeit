@@ -8,7 +8,7 @@ and Social LSTM (S-LSTM).
 
 ------------------------------FIRST STEP-----------------------------
 
-	Execute the file make_directories.sh to create the due folders.
+	Execute the command in make_directories.sh to create the due folders.
 
 --------------------------------SOURCE-------------------------------
 
