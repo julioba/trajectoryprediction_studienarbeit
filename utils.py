@@ -23,7 +23,6 @@ class DataLoader():
         generate : flag for data generation mode
         forcePreProcess : Flag to forcefully preprocess the data again from csv files
         '''
-
         # base test files
         base_test_dataset = [
                              #'data/test/simulation/simulation_test.txt',
