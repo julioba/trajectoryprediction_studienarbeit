@@ -96,7 +96,7 @@ def main():
     submission_store = []  # store submission data points (txt)
     result_store = []  # store points for plotting
 
-    begjulio = 0
+    beg = 0
     lowest_ade = 1
     lowest_fde = 1
     highest_ade = 0
@@ -222,7 +222,7 @@ def main():
                     i += 1
 
             traj_xy_new = np.zeros((20, 2))  # 200 -- POR QUE ERA ESTO
-            traj_xy_new = traj_xy[begjulio:begjulio + 20]
+            traj_xy_new = traj_xy[beg:beg + 20]
             used_ret = ret_x_seq
             n_p = ret_x_seq.shape[1]
             if old_n_p > n_p:
@@ -239,8 +239,8 @@ def main():
                 pedid = 0
                 used_ret = ret_x_seq[:, pedid, :]
 
-            ground_truth = traj_xy[begjulio:begjulio + 8]
-            begjulio += 20
+            ground_truth = traj_xy[beg:beg + 8]
+            beg += 20
 
             # fin del experimento
             # PRUEBA
@@ -303,7 +303,7 @@ def main():
             scatter "xxx" and "legend" above. Uncomment the two lines below. The files with the evolution are then stores
             in "plot/Superposition"
             '''
-            #picturename = "plot/Superposition/" + str(int(begjulio / 20)) + "trajectories.png"
+            #picturename = "plot/Superposition/" + str(int(beg / 20)) + "trajectories.png"
             #plt.savefig(picturename)
 
 
