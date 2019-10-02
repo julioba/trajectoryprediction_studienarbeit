@@ -8,16 +8,17 @@ and Social LSTM (S-LSTM).
 
 --------------------------------SOURCE-------------------------------
 
-This code is inspired in the code of A. Vemula
-https://github.com/xuerenlv/social-lstm-tf. It has been modified and
-expanded by Julio Barroeta Esteban as part of a Sudienarbeit for the
-Chair of Circuit Design and Networks of TU Dresden.
+	This code is inspired in the code of A. Vemula
+	https://github.com/xuerenlv/social-lstm-tf. It has been modified and
+	expanded by Julio Barroeta Esteban as part of a Sudienarbeit for the
+	Chair of Circuit Design and Networks of TU Dresden.
 
 ---------------------------------------------------------------------
 
 -------------------------------DATASETS------------------------------
 
-This program contains 3 datasets:
+
+    This program contains 3 datasets:
 
     (A) SIMULATION: Simulates a 10mx10m hall with 5 gates, 1 central
         obstacle and 4 different trajectories
@@ -36,6 +37,8 @@ This program contains 3 datasets:
 -----------------------------------------------------------------------
 
 ------------------------------FUNCTIONING------------------------------
+
+
 	To train the NN:
 		1. Open VLSTMtrain (VLSTM), OLSTMtrain (OLSTM) or train (S-LSTM)
 		2. If wanted, change the arguments or execute it directly.
@@ -67,6 +70,7 @@ This program contains 3 datasets:
 ------------------------------------------------------------------
 
 ------------------GENERATION OF THE TRAJECTORIES------------------
+
 	To generate new content in the datasets
 	    - For SIMULATION: Execute "simulationgeneration.py"
 	    - For STPET_RESIDENCE: Execute "residencesimulationgenerator.py"
