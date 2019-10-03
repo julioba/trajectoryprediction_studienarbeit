@@ -14,10 +14,10 @@ and Social LSTM (S-LSTM).
 
 --------------------------------SOURCE-------------------------------
 
-	This code is inspired in the code of A. Vemula
-	https://github.com/xuerenlv/social-lstm-tf. It has been modified and
-	expanded by Julio Barroeta Esteban as part of a Sudienarbeit for the
-	Chair of Circuit Design and Networks of TU Dresden.
+	It has been modified and expanded by Julio Barroeta Esteban as
+	part of a Sudienarbeit for the Chair of Circuit Design and
+	Networks of TU Dresden, using parts of the code of A. Vemula
+	https://github.com/xuerenlv/social-lstm-tf.
 
 ---------------------------------------------------------------------
 
